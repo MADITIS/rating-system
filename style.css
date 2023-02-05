@@ -71,7 +71,7 @@ h2 {
 .circle {
     width: 11px;
     height: 11px;
-    padding: 1rem;
+    padding: clamp(1.2rem, 1rem, 1.5rem);
     text-align: center;
     border-radius: 50%;
     font-weight: 500;
@@ -91,10 +91,10 @@ h2 {
 }
 
 .container {
-    width: clamp(23rem, 45vw, 25rem);
+    width: clamp(24rem, 45vw, 26rem);
     padding: 2rem;
     border-radius: 20px;
-    height: max(21rem, 35vh);
+    height: max(23rem, 35vh);
     /* margin: auto; */
 }
 
@@ -108,7 +108,7 @@ p {
 .container > div {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.6rem;
 }
 
 button {
