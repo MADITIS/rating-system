@@ -94,7 +94,7 @@ h2 {
     width: clamp(24rem, 45vw, 26rem);
     padding: 2rem;
     border-radius: 20px;
-    height: max(23rem, 35vh);
+    height: max(23rem, 30vh);
     /* margin: auto; */
 }
 
