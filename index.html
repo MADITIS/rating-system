@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script async src="https://kit.fontawesome.com/006ebfddac.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-primary-dark item-center">
+
+  <!-- Rating state start -->
+    <div class="bg-light container main-container">
+      <div>
+        <!-- <i class="fa-solid fa-star cl-secondary item-center circle"></i> -->
+
+        <div class="icon circle cl-secondary item-center"><img src="./images/icon-star.svg" class="" alt=""></div>
+        <div>
+          <h2>
+            How did we do?
+          </h2>
+          <p class="cl-accent">Please let us know how er di with your support request. All feedback is appreciated to help us improve our offering</p>
+        </div>
+        <div class="rating-container cl-accent">
+          <div class="bg-accent circle item-center">1</div>
+          <div class="bg-accent circle item-center">2</div>
+          <div class="bg-accent circle item-center">3</div>
+          <div class="bg-accent circle item-center">4</div>
+          <div class="bg-accent circle item-center">5</div>
+        </div>
+
+          <button class="bg-secondary">Submit</button>
+
+      </div>
+    </div>
+
+    <div class="response-container bg-light container hide-response">
+      <div class="item-center">
+        <div class="thank-icon item-center">
+          <img src="./images/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="response-text-rating text-orange">You selected Add rating here out of 5</div>
+        <div class="response-info">
+          <h2 class="text-primary">Thank You</h2>
+          <p class="cl-accent text-center">We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- How did we do? -->
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  <!-- to help us improve our offering! -->
+
+  <!-- 1 2 3 4 5 -->
+
+  <!-- Submit -->
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected Add rating here out of 5 -->
+
+  <!-- Thank you! -->
+
+  <!-- We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
