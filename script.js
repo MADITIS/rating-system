@@ -24,7 +24,15 @@ function buttonHandler(event) {
     console.log("button activated", selected)
     if (selected) {
         responseParent.classList.add("display-response")
+        setTimeout(() => {
+            responseParent.classList.add("shift-left")
+        }, 0.005);
+
         responseText.innerHTML = `You selected ${selected.textContent} out of 5`
+        // mainContainer.classList.add("shift-left-2")
+        // setTimeout(() => {
+        //     // responseParent.classList.add("shift-left")
+        // }, 0.005);
         mainContainer.style.display = "none"
     }
 }
